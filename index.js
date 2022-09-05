@@ -1,7 +1,7 @@
-const readlineSync = require("readline-sync");
-const chalk = require("chalk");
+import chalk from "chalk"
+import readlineSync from "readline-sync"
 
-// Main code starts from here :)
+
 console.log(chalk.yellow("Welcome to the Online Quiz"));
 
 let username = readlineSync.question("What's your Name?? \n");
